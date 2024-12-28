@@ -1,94 +1,100 @@
-
+body {
+    background-image: url("images of coming-soon/download.jfif");
+    background-position-x: center;
+}
 .flex-container{
-    background-color: blue;
+   
     display: flex;
     width: 100%;
     height: 20%;
     box-sizing: border-box;
+    color: black;
     
 }
 
 
 .flex-container > div{
-    background-color: grey;
+    margin: 20px;
     border: 1px solid black;
     font-size: 20px;
     width: 50%;
     margin: 10px;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
 
 
 }
-
+/* main contents */
 .main-content {
-    background-color: blue;
+    
     display: flex;
     width: 100%;
     box-sizing: border-box;
     flex-direction: column;
-    
-    
-
+    height: 500px;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 25px;
 }
-/* main contents */
 .main-content > form {
     margin: auto;
-    background-color: grey;
-    border: 1px solid black;
-    width: auto;
+    width: 25%;
+    max-height: fit-content;
+
 }
 
 .main-content > h3 {
-    background-color: grey;
     text-align: center;
+    font-size: 25px;
+
     
     
 }
 
 .main-content > h2 {
-    background-color: grey;
     text-align: center;
+    font-size: 25px;
     
 }
 /* about contents*/
 .about-content {
     display: flex;
     flex-direction: column;
-    background-color: blue;
     width: auto;
 
 
 }
 .about-content > h1 {
-     background-color: grey;
      text-align: center;
+     font-size: 40px;
 
 }
 .about-content > blockquote {
-    background-color: grey;
     text-align: center;
 
-
 }
+   
+
+
+
 /* be in touch content*/
 .be-in-touch{
-    background-color: blue;
+    
     display: flex;
     flex-direction: column;
 
 }
 .be-in-touch > h1 {
-    background-color: grey;
     text-align: center;
+    font-size: 40px;
 
 }
 .be-in-touch > blockquote {
-    background-color: grey;
     text-align: center;
 
 }
 footer {
-    background-color: blue;
     display: block;
     text-align: center;
 }
